@@ -32,9 +32,9 @@ layout:
 
 #### <mark style="color:purple;">First step (if you don´t have</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**Type 2 hypervisors**</mark><mark style="color:purple;">) is installing one?</mark>&#x20;
 
-{% hint style="info" %}
-How to install one? Is simple just go to the site of the chose one, for this project it will be used the [Virtual-Box](https://www.virtualbox.org/) and download it.  &#x20;
-{% endhint %}
+> [!info]
+> How to install one? Is simple just go to the site of the chose one, for this project it will be used the [Virtual-Box](https://www.virtualbox.org/) and download it.  &#x20;
+
 
 #### **With the virtual-box installed just open it and start creating your VM.**
 
@@ -44,15 +44,15 @@ How to install one? Is simple just go to the site of the chose one, for this pro
 
 > Note that the memory, name and processors don\`t need to be 100% as the tutorial or like the subject of the project ask, the important is to allocate the necessary memory for what the subject ask you to...
 
-{% hint style="info" %}
-The type of the file needs to correspond to the type that you want to create, in this case we will choose for 64bytes systems.  &#x20;
-{% endhint %}
+> [!info]
+> The type of the file needs to correspond to the type that you want to create, in this case we will choose for 64bytes systems.  &#x20;
+
 
 #### Now with the VM created is time to configure it !!! &#x20;
 
-{% hint style="warning" %}
-#### We need to have in mind that part of the initial configuration differs for the mandatory part and bonus. and that the project itself does not allow graphical interface.
-{% endhint %}
+> [!warning]
+> #### We need to have in mind that part of the initial configuration differs for the mandatory part and bonus. and that the project itself does not allow graphical interface.
+
 
 * The first part is the pretty straight forward, is like others OS where we need to configures dates, time zones, languages...
   *   first is initializing the OS, and them we select:
@@ -72,9 +72,9 @@ The type of the file needs to correspond to the type that you want to create, in
 
 #### Now we configure the partitions&#x20;
 
-{% hint style="info" %}
-_**This part will show the full partitions for the bonus part !!!**_
-{% endhint %}
+> [!info]
+> _**This part will show the full partitions for the bonus part !!!**_
+
 
 > **What are partitions ??**&#x20;
 >
@@ -133,18 +133,18 @@ After  creating the first partitions is time to create the second manual partiti
 
 <figure><img src="../../../.gitbook/assets/imagem.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-#### what\`s the difference between primary and logical partition??
+> [!info]
+> #### what\`s the difference between primary and logical partition??
+> 
+> A **primary partition** is a _main_ partition that your operating system can directly use to install an OS or store files. Each primary partition acts like an independent disk.
+> 
+> A **logical partition** is a **subdivision of an extended partition** on a hard disk.\
+> It acts like a normal partition and can store data or an operating system, but it exists **inside** an extended partition rather than directly on the physical disk.
 
-A **primary partition** is a _main_ partition that your operating system can directly use to install an OS or store files. Each primary partition acts like an independent disk.
 
-A **logical partition** is a **subdivision of an extended partition** on a hard disk.\
-It acts like a normal partition and can store data or an operating system, but it exists **inside** an extended partition rather than directly on the physical disk.
-{% endhint %}
+> [!warning]
+> Today, most modern systems use **GPT** instead of **MBR** — **GPT** removes these old limits:
 
-{% hint style="warning" %}
-Today, most modern systems use **GPT** instead of **MBR** — **GPT** removes these old limits:
-{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/imagem (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -169,9 +169,9 @@ Today, most modern systems use **GPT** instead of **MBR** — **GPT** removes th
 
 <figure><img src="../../../.gitbook/assets/imagem (8).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="danger" %}
-&#x20;                              <mark style="color:$danger;">**same steps are being skip, so pay attention on what you\`re doing**</mark> &#x20;
-{% endhint %}
+> [!danger]
+> &#x20;                              <mark style="color:$danger;">**same steps are being skip, so pay attention on what you\`re doing**</mark> &#x20;
+
 
 <figure><img src="../../../.gitbook/assets/imagem (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -195,9 +195,9 @@ Today, most modern systems use **GPT** instead of **MBR** — **GPT** removes th
 
 * Now is time to start the configuration of LVM — `Logical Volume Manager` &#x20;
 
-{% hint style="info" %}
-Because the processes is very similar on all the logical volume this will have only the first one and the volume group &#x20;
-{% endhint %}
+> [!info]
+> Because the processes is very similar on all the logical volume this will have only the first one and the volume group &#x20;
+
 
 * So the first step is to create our volume group "LVMGroup" on the encrypted partition.&#x20;
 
@@ -222,42 +222,42 @@ Because the processes is very similar on all the logical volume this will have o
 
 <figure><img src="../../../.gitbook/assets/imagem (23).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
-then we repeat this step until we have crated all the logical volumes inside the group&#x20;
-{% endhint %}
+> [!success]
+> then we repeat this step until we have crated all the logical volumes inside the group&#x20;
+
 
 * Having all the logical volumes done we now start the file system of all logical volumes, choosing how we are going to use it and where we will mount it until we get something like that: &#x20;
 
 <figure><img src="../../../.gitbook/assets/imagem (24).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-**What Is a File System?**
+> [!info]
+> **What Is a File System?**
+> 
+> A **file system** is the **method and structure** an operating system uses to **store, organize, retrieve, and manage data** on a storage device (like a hard drive, SSD, or USB stick).
+> 
+> In simple terms:
+> 
+> > A **file system** is like the **"map" or "organizer"** of your storage — it decides _how_ files are named, saved, and located on the disk.
+> >
+> > "ext4" ⇒  The default Linux file system. Stable, fast, reliable.
 
-A **file system** is the **method and structure** an operating system uses to **store, organize, retrieve, and manage data** on a storage device (like a hard drive, SSD, or USB stick).
 
-In simple terms:
+> [!warning]
+> ### **What Are “LVMs”?** ➡️ **Logical Volume Manager**
+> 
+> So when you see things like `LVGroup-root`, `LVGroup-home`, or `LVGroup-swap` — those are **Logical Volumes managed by LVM**.
+> 
+> **LVM** is a **flexible way to manage disk partitions** in Linux.\
+> Instead of fixed-size partitions (like `/dev/sda1`, `/dev/sda2`), LVM lets you **create, resize, and move** “virtual partitions” called **logical volumes** easily.
+> 
+> Think of it as a **layer between your physical disks and your file systems.**
 
-> A **file system** is like the **"map" or "organizer"** of your storage — it decides _how_ files are named, saved, and located on the disk.
->
-> "ext4" ⇒  The default Linux file system. Stable, fast, reliable.
-{% endhint %}
 
-{% hint style="warning" %}
-### **What Are “LVMs”?** ➡️ **Logical Volume Manager**
+> [!info]
+> Encrypting a partition isn’t mandatory, but it’s a **strong security practice**, especially for systems that handle personal or sensitive data.
+> 
+> When you **encrypt a partition**, all the data stored on it is **converted into unreadable code** using a **cryptographic key**.\
+> Only someone with the **correct password (or key)** can unlock and read it.
+> 
+> So even if someone **steals your hard drive**, they can’t access your files — everything looks like random noise.
 
-So when you see things like `LVGroup-root`, `LVGroup-home`, or `LVGroup-swap` — those are **Logical Volumes managed by LVM**.
-
-**LVM** is a **flexible way to manage disk partitions** in Linux.\
-Instead of fixed-size partitions (like `/dev/sda1`, `/dev/sda2`), LVM lets you **create, resize, and move** “virtual partitions” called **logical volumes** easily.
-
-Think of it as a **layer between your physical disks and your file systems.**
-{% endhint %}
-
-{% hint style="info" %}
-Encrypting a partition isn’t mandatory, but it’s a **strong security practice**, especially for systems that handle personal or sensitive data.
-
-When you **encrypt a partition**, all the data stored on it is **converted into unreadable code** using a **cryptographic key**.\
-Only someone with the **correct password (or key)** can unlock and read it.
-
-So even if someone **steals your hard drive**, they can’t access your files — everything looks like random noise.
-{% endhint %}

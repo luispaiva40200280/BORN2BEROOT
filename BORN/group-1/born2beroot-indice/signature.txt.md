@@ -40,10 +40,10 @@ layout:
 shasum machinename.vdi
 ```
 
-{% hint style="info" %}
-<mark style="color:blue;">shasum</mark>: It is a command that allows you to identify the integrity of a file using the [SHA-1](https://en.wikipedia.org/wiki/SHA-1) hash check sum of a file.
-{% endhint %}
+> [!info]
+> <mark style="color:blue;">shasum</mark>: It is a command that allows you to identify the integrity of a file using the [SHA-1](https://en.wikipedia.org/wiki/SHA-1) hash check sum of a file.
 
-{% hint style="warning" %}
-<mark style="color:$danger;">**Remember that since once you turn it on or modify something, the signature will change.**</mark>
-{% endhint %}
+
+> [!warning]
+> <mark style="color:$danger;">**Remember that since once you turn it on or modify something, the signature will change.**</mark>
+

@@ -28,13 +28,13 @@ layout:
 
 # 👨‍💼 Package managers
 
-{% hint style="info" %}
-**APT** is the **package management system** used in Debian and its derivatives (like Ubuntu).\
-It handles installing, upgrading, and removing software from repositories.
+> [!info]
+> **APT** is the **package management system** used in Debian and its derivatives (like Ubuntu).\
+> It handles installing, upgrading, and removing software from repositories.
+> 
+> **AppArmor** is a **Linux security module** that controls what applications are allowed to do.\
+> It uses **profiles** to restrict each program’s access to files, network, and system resources.
 
-**AppArmor** is a **Linux security module** that controls what applications are allowed to do.\
-It uses **profiles** to restrict each program’s access to files, network, and system resources.
-{% endhint %}
 
 Now after completing the LVM\`s we will configure the package manager of our operating system. On the first message that appears we click "no"&#x20;
 
@@ -54,6 +54,6 @@ After we choice the device `/dev/sda (ata_VBOX_HARDDISK)` for the installation f
 
 &#x20;
 
-{% hint style="success" %}
-<mark style="color:$success;">Now our system is finish</mark>&#x20;
-{% endhint %}
+> [!success]
+> <mark style="color:$success;">Now our system is finish</mark>&#x20;
+

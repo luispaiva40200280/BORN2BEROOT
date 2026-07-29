@@ -32,9 +32,9 @@ layout:
 
 #### :bulb:Lighttpd
 
-{% hint style="success" %}
-<mark style="color:$success;">Lighttpd</mark>: is a web server designed to be fast, secure, flexible, and standards-compliant. It is optimized for environments where speed is a top priority because it consumes less CPU and RAM than other servers.
-{% endhint %}
+> [!success]
+> <mark style="color:$success;">Lighttpd</mark>: is a web server designed to be fast, secure, flexible, and standards-compliant. It is optimized for environments where speed is a top priority because it consumes less CPU and RAM than other servers.
+
 
 * Lets install the service as usual&#x20;
 
@@ -51,13 +51,13 @@ sudo ufw status
 
 #### :newspaper: WordPress
 
-{% hint style="success" %}
-<mark style="color:$success;">**WordPress**</mark>: It is a content management system focused on the creation of any type of website.
+> [!success]
+> <mark style="color:$success;">**WordPress**</mark>: It is a content management system focused on the creation of any type of website.
+> 
+> <mark style="color:$success;">**wget**</mark>: It is a command line tool used to download files from the web.
+> 
+> <mark style="color:$success;">**zip**</mark>: It is a command line utility for compressing and decompressing files in ZIP format.
 
-<mark style="color:$success;">**wget**</mark>: It is a command line tool used to download files from the web.
-
-<mark style="color:$success;">**zip**</mark>: It is a command line utility for compressing and decompressing files in ZIP format.
-{% endhint %}
 
 * To install the latest version of WordPress we must first install wget and zip
 
@@ -84,9 +84,9 @@ sudo chmod -R 755 html
 
 #### <i class="fa-database">:database:</i> **MARIADB**
 
-{% hint style="success" %}
-<mark style="color:$success;">**MariaDB**</mark>: It is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
-{% endhint %}
+> [!success]
+> <mark style="color:$success;">**MariaDB**</mark>: It is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
+
 
 * We will install the packages to our MariaDB database with the command
 
@@ -94,9 +94,9 @@ sudo chmod -R 755 html
 sudo apt install mariadb-server
 ```
 
-{% hint style="warning" %}
-<mark style="color:$warning;">**Check that the database is already protected, and if not, look up how to secure it.**</mark>
-{% endhint %}
+> [!warning]
+> <mark style="color:$warning;">**Check that the database is already protected, and if not, look up how to secure it.**</mark>
+
 
 * Lets create a database for our wordpress site &#x20;
   * First lets open MariaDB with the command >> `mariadb`
@@ -109,9 +109,9 @@ sudo apt install mariadb-server
 
 #### PHP&#x20;
 
-{% hint style="info" %}
-<mark style="color:blue;">PHP</mark>: It is a programming language. It is mainly used to develop dynamic web applications and interactive websites. PHP runs on the server side.
-{% endhint %}
+> [!info]
+> <mark style="color:blue;">PHP</mark>: It is a programming language. It is mainly used to develop dynamic web applications and interactive websites. PHP runs on the server side.
+
 
 *   We install the necessary packages to be able to run web applications written in PHP language and that need to connect to a MySQL database. Run the following command:
 
@@ -161,11 +161,11 @@ sudo service lighttpd force-reload
 
 #### :cloud\_lightning: LiteSpeed
 
-{% hint style="success" %}
-<mark style="color:$success;">**LiteSpeed**</mark>: It is a proprietary web server software. It is the fourth most popular web server, and is estimated to be used by 10% of websites.
+> [!success]
+> <mark style="color:$success;">**LiteSpeed**</mark>: It is a proprietary web server software. It is the fourth most popular web server, and is estimated to be used by 10% of websites.
+> 
+> <mark style="color:$info;">**By default, OpenLiteSpeed is available in the Debian 11 base repository. So, you must run the following command to add the OpenLiteSpeed repository to your Debian system:**</mark>
 
-<mark style="color:$info;">**By default, OpenLiteSpeed is available in the Debian 11 base repository. So, you must run the following command to add the OpenLiteSpeed repository to your Debian system:**</mark>
-{% endhint %}
 
 * Before installing any software, it is important to ensure that the system is up to date and upgrade:
 
@@ -191,9 +191,9 @@ sudo ufw reload
 
 * Once we have completed the previous step we can connect. We will put in the search engine of our browser `<IP address>:7081` we provide our login credentials and we will have access to everything.
 
-{% hint style="info" %}
-<mark style="color:$info;">**If your browser does no let you open the web page because is unsafe you can just ignore that and forcebly enter the website**</mark>
-{% endhint %}
+> [!info]
+> <mark style="color:$info;">**If your browser does no let you open the web page because is unsafe you can just ignore that and forcebly enter the website**</mark>
+
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2025-11-02 22-02-12.png" alt=""><figcaption></figcaption></figure>
 
@@ -209,10 +209,10 @@ sudo ufw reload
 4. It’s **lightweight** and performs well with minimal setup.
 5. It supports **systemd**, so you can demonstrate service management (`systemctl start|stop|status lsws`).
 
-{% hint style="warning" %}
-When cloning the machine we need do clone it we need to change the option of <mark style="color:yellow;">**MAC Address Policy of**</mark> <<mark style="color:$warning;">Include only NAT network adapter MAC addresses</mark>> to <<mark style="color:$success;">Include all network adapter MAC addresses</mark>>
-{% endhint %}
+> [!warning]
+> When cloning the machine we need do clone it we need to change the option of <mark style="color:yellow;">**MAC Address Policy of**</mark> <<mark style="color:$warning;">Include only NAT network adapter MAC addresses</mark>> to <<mark style="color:$success;">Include all network adapter MAC addresses</mark>>
 
-{% hint style="success" %}
-&#x20;                                                                    <mark style="color:$success;">**Now Born2beroot is complete**</mark>&#x20;
-{% endhint %}
+
+> [!success]
+> &#x20;                                                                    <mark style="color:$success;">**Now Born2beroot is complete**</mark>&#x20;
+

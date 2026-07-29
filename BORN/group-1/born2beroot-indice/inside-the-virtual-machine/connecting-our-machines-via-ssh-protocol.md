@@ -45,7 +45,7 @@ After completing the ssh protocol in our machine we can go to our VM manager (Or
 
 &#x20;                        :warning: <mark style="color:$warning;background-color:$warning;">**Remember your machine needs to be open for this to work**</mark>     :warning:  &#x20;
 
-{% hint style="success" %}
-<mark style="color:$success;">**After having the SSH connection complete we can do all the next steps in our terminal, that will facilitate quite a lot our life**</mark>
-{% endhint %}
+> [!success]
+> <mark style="color:$success;">**After having the SSH connection complete we can do all the next steps in our terminal, that will facilitate quite a lot our life**</mark>
+
 

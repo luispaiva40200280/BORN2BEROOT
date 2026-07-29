@@ -30,13 +30,13 @@ layout:
 
 # ⌛ SCRIPT AND CRONTAB
 
-{% hint style="danger" %}
-<mark style="color:$danger;">**Do not cheat in this part!**</mark> <mark style="color:$warning;">You will be asked how the script works during the evaluation, so understand it as the evaluator expects.</mark>
-{% endhint %}
+> [!danger]
+> <mark style="color:$danger;">**Do not cheat in this part!**</mark> <mark style="color:$warning;">You will be asked how the script works during the evaluation, so understand it as the evaluator expects.</mark>
 
-{% hint style="success" %}
-<mark style="color:$warning;">**script**</mark>: is a sequence of commands stored in a file that, when executed, will perform the function of each command.
-{% endhint %}
+
+> [!success]
+> <mark style="color:$warning;">**script**</mark>: is a sequence of commands stored in a file that, when executed, will perform the function of each command.
+
 
 * Bellow the scrip is a **brief explanation** of what we want to show with the script&#x20;
 
@@ -107,60 +107,60 @@ wall "	Architecture: $arch
 
 ### Architecture <a href="#architecture" id="architecture"></a>
 
-{% hint style="info" %}
-The **architecture of an operating system** refers to the **overall design and structure** of how the OS is built
-{% endhint %}
+> [!info]
+> The **architecture of an operating system** refers to the **overall design and structure** of how the OS is built
+
 
 ### Physical Cores <a href="#physical-cores" id="physical-cores"></a>
 
-{% hint style="info" %}
-A **physical core** is a **real, physical processing unit** inside your computer’s CPU.\
-Each core can **execute its own tasks (threads)** independently.
-{% endhint %}
+> [!info]
+> A **physical core** is a **real, physical processing unit** inside your computer’s CPU.\
+> Each core can **execute its own tasks (threads)** independently.
+
 
 ### Virtual Cores <a href="#virtual-cores" id="virtual-cores"></a>
 
-{% hint style="info" %}
-A **virtual core** (or **logical core**) is a **simulated processing unit** that the operating system sees &#x20;
+> [!info]
+> A **virtual core** (or **logical core**) is a **simulated processing unit** that the operating system sees &#x20;
+> 
+> Is basically  a _software-visible thread_ that shares the resources of one **physical core** to perform more than one task at a time.
 
-Is basically  a _software-visible thread_ that shares the resources of one **physical core** to perform more than one task at a time.
-{% endhint %}
 
 ### RAM <a href="#ram" id="ram"></a>
 
-{% hint style="info" %}
-**RAM** stands for **Random Access Memory**.\
-It’s your computer’s **short-term memory** — where data and programs are stored **temporarily** while they’re being used.
-{% endhint %}
+> [!info]
+> **RAM** stands for **Random Access Memory**.\
+> It’s your computer’s **short-term memory** — where data and programs are stored **temporarily** while they’re being used.
+
 
 ### Disk memory <a href="#disk-memory" id="disk-memory"></a>
 
-{% hint style="info" %}
-**Disk memory** (also called **storage** or **secondary memory**) is the **long-term memory** of your computer.\
-It permanently stores your **files, programs, and operating system**, even when the power is off.
-{% endhint %}
+> [!info]
+> **Disk memory** (also called **storage** or **secondary memory**) is the **long-term memory** of your computer.\
+> It permanently stores your **files, programs, and operating system**, even when the power is off.
+
 
 ### CPU usage percentage <a href="#cpu-usage-percentage" id="cpu-usage-percentage"></a>
 
-{% hint style="info" %}
-**CPU** stands for **Central Processing Unit**.\
-It’s the **main component** of a computer that **processes instructions** — basically, it’s what **makes your computer think and work**.
-{% endhint %}
+> [!info]
+> **CPU** stands for **Central Processing Unit**.\
+> It’s the **main component** of a computer that **processes instructions** — basically, it’s what **makes your computer think and work**.
+
 
 ### TCP connections <a href="#tcp-connections" id="tcp-connections"></a>
 
-{% hint style="info" %}
-**TCP** stands for **Transmission Control Protocol**.\
-It’s one of the main protocols used on the internet to **send and receive data reliably** between two devices.
+> [!info]
+> **TCP** stands for **Transmission Control Protocol**.\
+> It’s one of the main protocols used on the internet to **send and receive data reliably** between two devices.
+> 
+> A **TCP connection** is like a **phone call 📞** between two computers — both sides connect, talk reliably, and hang up properly when done.
 
-A **TCP connection** is like a **phone call 📞** between two computers — both sides connect, talk reliably, and hang up properly when done.
-{% endhint %}
 
 ### <mark style="color:blue;">Crontab</mark>&#x20;
 
-{% hint style="info" %}
-<mark style="color:$success;">**crontab**</mark>: is a background process manager. The specified processes will be executed at the time you specify in the crontab file.
-{% endhint %}
+> [!info]
+> <mark style="color:$success;">**crontab**</mark>: is a background process manager. The specified processes will be executed at the time you specify in the crontab file.
+
 
 * If we don\`t have the crontab install we can run this command
 

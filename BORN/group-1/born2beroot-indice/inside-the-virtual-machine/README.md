@@ -51,18 +51,18 @@ After installing sud**o we create a user and a group called user42 ,** after we 
 4. `sudo adduser <username> <groupname>`   " we change the username and groupname depending on who an where we want to add   "
 5. `getent group sudo <groupname>`
 
-{% hint style="info" %}
-### 🧩 **What is `sudo`?**
+> [!info]
+> ### 🧩 **What is `sudo`?**
+> 
+> `sudo` stands for **“superuser do.”**\
+> It allows a **regular user** to **run commands with administrative (root) privileges** — temporarily giving them elevated access.
 
-`sudo` stands for **“superuser do.”**\
-It allows a **regular user** to **run commands with administrative (root) privileges** — temporarily giving them elevated access.
-{% endhint %}
 
 #### Now we start to install the ssh protocol
 
-{% hint style="info" %}
-<mark style="color:purple;">SSH</mark> stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
-{% endhint %}
+> [!info]
+> <mark style="color:purple;">SSH</mark> stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
+
 
 **We can before Installing OpenSSH server update the apt, then we can confirm our ssh server status**
 
@@ -93,7 +93,7 @@ Then we need to restart and once it is done we will check the service state with
 * `sudo service ssh restart`
 * `sudo service ssh status`
 
-{% hint style="success" %}
-<mark style="color:$success;">After that we can connect via ssh our virtual machine whit our host our main computer</mark>&#x20;
-{% endhint %}
+> [!success]
+> <mark style="color:$success;">After that we can connect via ssh our virtual machine whit our host our main computer</mark>&#x20;
+
 

@@ -1,8 +1,5 @@
 ---
-description: >-
-  This project aims to introduce you to the wonderful world of virtualization.
-  You will create your first machine in Virtual-box (or UTM if you can’t use
-  Virtual-box) using specific instructions.
+description: This project aims to introduce you to the wonderful world of virtualization. You will create your first machine in Virtual-box (or UTM if you can’t use Virtual-box) using specific instructions.
 icon: laptop-code
 cover: .gitbook/assets/Pikachu icon cs xhs jiakeileong0805.jpeg
 coverY: 0

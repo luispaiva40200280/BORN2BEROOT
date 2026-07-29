@@ -28,18 +28,18 @@ layout:
 
 # UFW and allowing porting
 
-{% hint style="info" %}
-#### what is a firewall and what is ufw ?&#x20;
+> [!info]
+> #### what is a firewall and what is ufw ?&#x20;
+> 
+> A **firewall** is a **security system** that controls **incoming and outgoing network traffic** based on a set of **rules**.
+> 
+> It acts like a **gatekeeper** between your computer (or network) and the outside world 🌐.
+> 
+> **UFW** stands for **Uncomplicated Firewall**.\
+> It’s a **user-friendly tool** for managing the **IP-tables** firewall on Linux (used in Debian, Ubuntu, etc.).
+> 
+> Think of it as a **simpler interface** to control complex firewall rules.
 
-A **firewall** is a **security system** that controls **incoming and outgoing network traffic** based on a set of **rules**.
-
-It acts like a **gatekeeper** between your computer (or network) and the outside world 🌐.
-
-**UFW** stands for **Uncomplicated Firewall**.\
-It’s a **user-friendly tool** for managing the **IP-tables** firewall on Linux (used in Debian, Ubuntu, etc.).
-
-Think of it as a **simpler interface** to control complex firewall rules.
-{% endhint %}
 
 #### Now is time to install UFW&#x20;
 
@@ -132,21 +132,21 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 ```
 {% endcode %}
 
-{% hint style="info" %}
-<mark style="color:$primary;">minlen</mark><mark style="color:$success;">=</mark>10 ➤ <mark style="color:$info;">The minimum characters a password must contain.</mark>
+> [!info]
+> <mark style="color:$primary;">minlen</mark><mark style="color:$success;">=</mark>10 ➤ <mark style="color:$info;">The minimum characters a password must contain.</mark>
+> 
+> <mark style="color:$primary;">ucredit</mark>=-1 ➤ <mark style="color:$info;">The password must contain at least one capital letter.</mark>&#x20;
+> 
+> <mark style="color:$primary;">dcredit</mark>=-1 ➤ <mark style="color:$info;">The password must contain at least one digit.</mark>
+> 
+> <mark style="color:$primary;">lcredit</mark>=-1 ➤ <mark style="color:$info;">The password must contain at least one lowercase letter.</mark>
+> 
+> <mark style="color:$primary;">maxrepeat</mark>=3 ➤ <mark style="color:$info;">The password cannot have the same character repeated three consecutive times.</mark>
+> 
+> <mark style="color:$primary;">reject\_username</mark> ➤ <mark style="color:$info;">The password cannot contain the username within itself.</mark>
+> 
+> <mark style="color:$primary;">difok</mark>=7 ➤ <mark style="color:$info;">The password must contain at least seven different characters from the last password used.</mark>
+> 
+> <mark style="color:$primary;">enforce\_for\_root</mark> ➤ <mark style="color:$info;">We will implement this password policy for root.</mark>
 
-<mark style="color:$primary;">ucredit</mark>=-1 ➤ <mark style="color:$info;">The password must contain at least one capital letter.</mark>&#x20;
-
-<mark style="color:$primary;">dcredit</mark>=-1 ➤ <mark style="color:$info;">The password must contain at least one digit.</mark>
-
-<mark style="color:$primary;">lcredit</mark>=-1 ➤ <mark style="color:$info;">The password must contain at least one lowercase letter.</mark>
-
-<mark style="color:$primary;">maxrepeat</mark>=3 ➤ <mark style="color:$info;">The password cannot have the same character repeated three consecutive times.</mark>
-
-<mark style="color:$primary;">reject\_username</mark> ➤ <mark style="color:$info;">The password cannot contain the username within itself.</mark>
-
-<mark style="color:$primary;">difok</mark>=7 ➤ <mark style="color:$info;">The password must contain at least seven different characters from the last password used.</mark>
-
-<mark style="color:$primary;">enforce\_for\_root</mark> ➤ <mark style="color:$info;">We will implement this password policy for root.</mark>
-{% endhint %}
 

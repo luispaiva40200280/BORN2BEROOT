@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "67ffdfc99dc888c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "393eed4f81633b3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e972ee8f9efb6071",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BORN/group-1/born2beroot-indice/inside-the-virtual-machine/script-and-crontab.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "script-and-crontab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c015f8136f9b7617",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2219d8742a58130",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a0a90f7c98a1d15",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7750d1934734422e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8a7d43bbc7a4d4f5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d5bdabdd859e6800",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7bdc7aec06e53d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01bafc78431630e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BORN/group-1/born2beroot-indice/inside-the-virtual-machine/script-and-crontab.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for script-and-crontab"
+            }
+          },
+          {
+            "id": "06d14f7c1d21fcb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "BORN/group-1/born2beroot-indice/inside-the-virtual-machine/script-and-crontab.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from script-and-crontab"
+            }
+          },
+          {
+            "id": "41bbb283ebeb666f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6af3820c1a81894f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "082551362e33c50b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "BORN/group-1/born2beroot-indice/inside-the-virtual-machine/script-and-crontab.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of script-and-crontab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e972ee8f9efb6071",
+  "lastOpenFiles": [
+    "BORN/group-1/born2beroot-indice/signature.txt.md",
+    "BORN/group-1/born2beroot-indice/virtual-machines.md",
+    "BORN/SUMMARY.md",
+    "BORN/group-1/born2beroot-indice/inside-the-virtual-machine/README.md",
+    "BORN/group-1/born2beroot-indice/inside-the-virtual-machine/connecting-our-machines-via-ssh-protocol.md",
+    "BORN/README.md"
+  ]
+}
